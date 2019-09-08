@@ -3,8 +3,7 @@ package org.fasttrackit;
 /**
  * Created by admin on 9/3/2019.
  */
-public class Doctor {
-    String name;
+public class Doctor extends Entity{
     String specialization;
 
     int rescuerMedicalTreatment;

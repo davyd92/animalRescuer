@@ -3,9 +3,7 @@ package org.fasttrackit;
 /**
  * Created by admin on 9/3/2019.
  */
-public class Animal {
-    String name;
-    int age;
+public class Animal extends Entity{
     int healthCondition;
     int hungerSensation;
     int mood;

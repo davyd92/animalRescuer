@@ -14,7 +14,7 @@ public class App
 //            rescuer.name = "Alex";
             rescuer.setMoney(1400);
         }
-        Animal dog = new Animal("Daisy");
+        Animal dog = new Animal("Daisy ");
         {
 //            dog.name = "Daisy";
             dog.setAge(6);

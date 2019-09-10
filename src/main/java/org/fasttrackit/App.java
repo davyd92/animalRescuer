@@ -12,29 +12,29 @@ public class App
         Rescuer rescuer = new Rescuer("Alex", 19);
         {
 //            rescuer.name = "Alex";
-            rescuer.money = 1400;
+            rescuer.setMoney(1400);
         }
         Animal dog = new Animal("Daisy");
         {
 //            dog.name = "Daisy";
-            dog.age = 6;
-            dog.favoriteFood = "Royal Canin";
-            dog.favoriteRecreationActivity = "ForestWalks";
-            dog.healthCondition=10;
-            dog.hungerSensation=3;
-            dog.mood = 8;
-            dog.breed = "labrador";
+            dog.setAge(6);
+            dog.setFavoriteFood("Royal Canin");
+            dog.setFavoriteRecreationActivity("ForestWalks");
+            dog.setHealthCondition(10);
+            dog.setHungerSensation(3);
+            dog.setMood (8);
+            dog.setBreed("labrador");
         }
         Veterinarian veterinarian = new Veterinarian("Andrei");{
 //            veterinarian.name = "Andrei";
-            veterinarian.specialization = "dogsConsultation";
+            veterinarian.setSpecialization("dogsConsultation");
         }
         AnimalFood dogFood = new AnimalFood("Royal Canin", 80, 2);
         {
 //            dogFood.name = "Royal Canin";
 //            dogFood.price = 80;
-            dogFood.quantity = 2;
-            dogFood.availabilityInStock = true;
+            dogFood.setQuantity(2);
+            dogFood.setAvailabilityInStock(true);
 //            dogFood.expirationDate = 12, 12, 2020;
         }
         RecreationalActivity recreationalActivity = new RecreationalActivity("ForestWalks");
@@ -42,12 +42,12 @@ public class App
 //            recreationalActivity.name ="ForestWalks";
         }
         Game game = new Game();
-        game.rescuer = "Alex";
-        game.dog = "Daisy";
-        game.doctor = "Andrei";
+        game.setRescuer("Alex");
+        game.setDog("Daisy");
+        game.setDoctor("Andrei");
 
-        System.out.println("Numele propritarului este " + rescuer.name + ", iar prietenul sau este " + dog.name + ".");
-        System.out.println(rescuer.name + " are " +rescuer.age + " ani, iar mancarea preferata a lui "+ dog.name + " este "+ dogFood.name+". :)");
+        System.out.println("Numele propritarului este " + rescuer.getName() + ", iar prietenul sau este " + dog.getName() + ".");
+        System.out.println(rescuer.getName() + " are " +rescuer.getAge() + " ani, iar mancarea preferata a lui "+ dog.getName() + " este "+ dogFood.getName()+". :)");
 
     }
 }

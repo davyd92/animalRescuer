@@ -3,12 +3,12 @@ package org.fasttrackit;
 
 
 public class RecreationalActivity {
-    String name;
+    private String name;
 
-    String place;
-    double price;
-    boolean petAcces;
-    int moodIncrease;
+   private String place;
+    private double price;
+    private boolean petAcces;
+    private int moodIncrease;
 
     public RecreationalActivity(String name) {
         this.name = name;

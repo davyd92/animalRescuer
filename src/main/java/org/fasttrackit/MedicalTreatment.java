@@ -5,9 +5,9 @@ package org.fasttrackit;
  */
 public class MedicalTreatment {
 
-    String name;
-    int increaseRescuerHealthCondition;
-    double price;
+    private String name;
+    private int increaseRescuerHealthCondition;
+    private double price;
 
     public MedicalTreatment(String name, int increaseRescuerHealthCondition, double price){
         this.name = name;
@@ -15,4 +15,29 @@ public class MedicalTreatment {
         this.price = price;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getPrice() {
+
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public int getIncreaseRescuerHealthCondition() {
+
+        return increaseRescuerHealthCondition;
+    }
+
+    public void setIncreaseRescuerHealthCondition(int increaseRescuerHealthCondition) {
+        this.increaseRescuerHealthCondition = increaseRescuerHealthCondition;
+    }
 }

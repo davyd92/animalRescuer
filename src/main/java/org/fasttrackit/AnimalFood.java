@@ -15,9 +15,10 @@ public class AnimalFood {
     int increaseHungerSensation;
     int increaseMood;
 
-    public AnimalFood(String name, double price) {
+    public AnimalFood(String name, double price, int increaseHungerSensation) {
         this.name = name;
         this.price=price;
+        this.increaseHungerSensation=increaseHungerSensation;
     }
 
 

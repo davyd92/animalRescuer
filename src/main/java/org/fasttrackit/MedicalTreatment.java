@@ -9,4 +9,10 @@ public class MedicalTreatment {
     int increaseRescuerHealthCondition;
     double price;
 
+    public MedicalTreatment(String name, int increaseRescuerHealthCondition, double price){
+        this.name = name;
+        this.increaseRescuerHealthCondition = increaseRescuerHealthCondition;
+        this.price = price;
+    }
+
 }

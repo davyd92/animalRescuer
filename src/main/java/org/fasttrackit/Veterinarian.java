@@ -8,7 +8,6 @@ public class Veterinarian extends Entity{
     int animalMedicalTreatment;
     double consultationPrice;
     String suggestMedicalTreatment;
-    int increaseHealthCondition;
 
     public Veterinarian(String name){
         this.name=name;

@@ -29,7 +29,7 @@ public class App
 //            veterinarian.name = "Andrei";
             veterinarian.specialization = "dogsConsultation";
         }
-        AnimalFood dogFood = new AnimalFood("Royal Canin", 80);
+        AnimalFood dogFood = new AnimalFood("Royal Canin", 80, 2);
         {
 //            dogFood.name = "Royal Canin";
 //            dogFood.price = 80;

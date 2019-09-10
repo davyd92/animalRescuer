@@ -9,4 +9,7 @@ public class PetMedicalTratment {
     int increasePetHealthCondition;
     double price;
 
+    public PetMedicalTratment(String name) {
+        this.name = name;
+    }
 }

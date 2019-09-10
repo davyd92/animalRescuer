@@ -1,8 +1,7 @@
 package org.fasttrackit;
 
-/**
- * Created by admin on 9/3/2019.
- */
+
+
 public class Animal extends Entity{
     int healthCondition;
     int hungerSensation;
@@ -15,7 +14,9 @@ public class Animal extends Entity{
     String colour;
     String house;
 
-
+    public Animal(String name){
+        this.name = name;
+    }
 
 
 }

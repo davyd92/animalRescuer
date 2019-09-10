@@ -1,8 +1,7 @@
 package org.fasttrackit;
 
-/**
- * Created by admin on 9/3/2019.
- */
+
+
 public class RecreationalActivity {
     String name;
 
@@ -11,6 +10,7 @@ public class RecreationalActivity {
     boolean petAcces;
     int moodIncrease;
 
-
-
+    public RecreationalActivity(String name) {
+        this.name = name;
+    }
 }

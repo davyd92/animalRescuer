@@ -2,9 +2,7 @@ package org.fasttrackit;
 
 import java.util.Date;
 
-/**
- * Created by admin on 9/3/2019.
- */
+
 public class AnimalFood {
     String name;
     double price;
@@ -16,6 +14,11 @@ public class AnimalFood {
     int increaseHealthCondition;
     int increaseHungerSensation;
     int increaseMood;
+
+    public AnimalFood(String name, double price) {
+        this.name = name;
+        this.price=price;
+    }
 
 
 }

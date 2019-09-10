@@ -1,8 +1,7 @@
 package org.fasttrackit;
 
-/**
- * Created by admin on 9/3/2019.
- */
+
+
 public class Rescuer extends Entity{
     double money;
 
@@ -10,6 +9,10 @@ public class Rescuer extends Entity{
     int rescuerHealtCondition;
     int animalMedicatTreatment;
 
+    public Rescuer(String name,int age){
+        this.name=name;
+        this.age=age;
+    }
 
 
 

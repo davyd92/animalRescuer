@@ -1,8 +1,7 @@
 package org.fasttrackit;
 
-/**
- * Created by admin on 9/3/2019.
- */
+
+
 public class Veterinarian extends Entity{
     String specialization;
 
@@ -10,6 +9,10 @@ public class Veterinarian extends Entity{
     double consultationPrice;
     String suggestMedicalTreatment;
     int increaseHealthCondition;
+
+    public Veterinarian(String name){
+        this.name=name;
+    }
 
 
 

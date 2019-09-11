@@ -9,7 +9,7 @@ public class Dog extends Animal {
         super(name);
     }
 
-    public String toString(){
+    public String pozitiveMood(){
         return "The dog wags his tail.";
     }
 }

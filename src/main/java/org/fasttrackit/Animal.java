@@ -17,7 +17,7 @@ public class Animal extends Entity {
         this.setName(name);
     }
 
-    public String toString(){
+    public String pozitiveMood(){
         return "The animal is happy.";
     }
 

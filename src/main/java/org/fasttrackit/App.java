@@ -47,12 +47,12 @@ public class App
         Fish fishNemo = new Fish("Nemo");
         Animal animal = new Animal("Caleb");
 
-        System.out.println(daisy.toString());
-        System.out.println(turlteRaphael.toString());
-        System.out.println(catTirmus.toString());
-        System.out.println(fishNemo.toString());
-        System.out.println(parrotRita.toString());
-        System.out.println(animal.toString());
+        System.out.println(daisy.pozitiveMood());
+        System.out.println(turlteRaphael.pozitiveMood());
+        System.out.println(catTirmus.pozitiveMood());
+        System.out.println(fishNemo.pozitiveMood());
+        System.out.println(parrotRita.pozitiveMood());
+        System.out.println(animal.pozitiveMood());
 
 
     }

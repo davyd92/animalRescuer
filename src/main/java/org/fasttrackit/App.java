@@ -36,8 +36,8 @@ public class App
         game.setDog("Daisy");
         game.setDoctor("Andrei");
 
-        System.out.println("Numele propritarului este " + alex.getName() + ", iar prietenul sau este " + daisy.getName() + ".");
-        System.out.println(alex.getName() + " are " +alex.getAge() + " ani, iar mancarea preferata a lui "+ daisy.getName() + " este "+ dogFood.getName()+". :)");
+      //  System.out.println("Numele propritarului este " + alex.getName() + ", iar prietenul sau este " + daisy.getName() + ".");
+     //   System.out.println(alex.getName() + " are " +alex.getAge() + " ani, iar mancarea preferata a lui "+ daisy.getName() + " este "+ dogFood.getName()+". :)");
         alex.feeding(daisy, dogFood);
         alex.recreationTime(forestWalks,daisy);
 

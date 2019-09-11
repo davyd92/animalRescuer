@@ -14,6 +14,19 @@ public class Rescuer extends Entity{
         this.setAge(age);;
     }
 
+
+
+    public void feeding(Animal animal, AnimalFood food){
+        System.out.println(getName()+" just gave some "+ food.getName() + " food to "+animal.getName()+".");
+    }
+    public void recreationTime(RecreationalActivity recreationalActivity, Animal animal){
+
+        System.out.println(getName()+" just have some "+ recreationalActivity.getName() + " activity with "+animal.getName()+".");
+    }
+
+
+
+
     public double getMoney() {
         return money;
     }

@@ -41,10 +41,10 @@ public class App
 //        alex.feeding(daisy, dogFood);
 //        alex.recreationTime(forestWalks,daisy);
 
-        Turtle turlteRaphael = new Turtle("Raphael");
-        Parrot parrotRita = new Parrot("Rita");
-        Cat catTirmus = new Cat("Tirmus");
-        Fish fishNemo = new Fish("Nemo");
+        Animal turlteRaphael = new Turtle("Raphael");
+        Animal parrotRita = new Parrot("Rita");
+        Animal catTirmus = new Cat("Tirmus");
+        Animal fishNemo = new Fish("Nemo");
         Animal animal = new Animal("Caleb");
 
         System.out.println(daisy.pozitiveMood());

@@ -67,4 +67,19 @@ public class Animal extends Entity {
     public void setHealthCondition(int healthCondition) {
         this.healthCondition = healthCondition;
     }
+
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "healthCondition=" + healthCondition +
+                ", hungerLevel=" + hungerLevel +
+                ", mood=" + mood +
+                ", favoriteFood='" + favoriteFood + '\'' +
+                ", favoriteRecreationActivity='" + favoriteRecreationActivity + '\'' +
+                ", breed='" + breed + '\'' +
+                ", friendly=" + friendly +
+                ", colour='" + colour + '\'' +
+                ", house='" + house + '\'' +
+                '}';
+    }
 }

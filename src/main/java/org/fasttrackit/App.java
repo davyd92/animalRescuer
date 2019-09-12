@@ -20,6 +20,7 @@ public class App
             daisy.setHungerLevel(6);
             daisy.setMood (8);
             daisy.setBreed("labrador");
+            daisy.setFriendly(true);
 
         Veterinarian veterinarian = new Veterinarian("Andrei");
           veterinarian.setSpecialization("dogsConsultation");
@@ -54,12 +55,21 @@ public class App
         System.out.println(parrotRita.pozitiveMood());
         System.out.println(animal.pozitiveMood());**/
 
-        System.out.println("Hunger level of "+daisy.getName()+" is "+daisy.getHungerLevel());
+        /**System.out.println("Hunger level of "+daisy.getName()+" is "+daisy.getHungerLevel());
         alex.feeding(daisy,dogFood);
         System.out.println("Hunger level after feeding is: "+daisy.getHungerLevel());
         System.out.println("");
         System.out.println(daisy.getName()+"'s level of happines is: "+daisy.getMood());
         alex.recreationTime(daisy,forestWalks);
         System.out.println(daisy.getName()+"'s level of happines after "+forestWalks.getName()+" is: "+daisy.getMood());
+         **/
+
+        System.out.println(daisy.toString());
+        alex.feeding(daisy,dogFood);
+        System.out.println(daisy.toString());
+        alex.recreationTime(daisy,forestWalks);
+        System.out.println(daisy.toString());
+
+
     }
 }

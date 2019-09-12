@@ -21,12 +21,18 @@ public class Rescuer extends Entity{
     public void feeding(Animal animal, AnimalFood food){
         System.out.println(getName()+" just gave some "+ food.getName() + " food to "+animal.getName()+".");
         animal.setHungerLevel(animal.getHungerLevel()-1);
+        if(animal.getFavoriteFood()==food.getName()){
+            animal.setMood(animal.getMood()+1);
+        }
         //animal.setHungerLevel(animal.getHungerLevel()+food.getHungerLevel());
     }
 
     public void recreationTime(Animal animal, RecreationalActivity recreationalActivity){
         System.out.println(getName()+" just have some "+ recreationalActivity.getName() + " activity with "+animal.getName()+".");
-        animal.setMood(animal.getMood()+recreationalActivity.getMoodIncrease());
+        if(animal.getFavoriteRecreationActivity()==recreationalActivity.getName()){
+            animal.setMood(animal.getMood()+recreationalActivity.getMoodIncrease()+1);
+        }
+            else animal.setMood(animal.getMood()+recreationalActivity.getMoodIncrease());
     }
 
 

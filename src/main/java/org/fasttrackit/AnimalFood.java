@@ -12,13 +12,13 @@ public class AnimalFood {
 
     private boolean medicalTreatment;
     private int increaseHealthCondition;
-    private int increaseHungerSensation;
+    private int HungerLevel;
     private int increaseMood;
 
-    public AnimalFood(String name, double price, int increaseHungerSensation) {
+    public AnimalFood(String name, double price, int HungerLevel) {
         this.name = name;
         this.price=price;
-        this.increaseHungerSensation=increaseHungerSensation;
+        this.HungerLevel = HungerLevel;
     }
 
 
@@ -45,8 +45,8 @@ public class AnimalFood {
     public int getIncreaseHealthCondition() {return increaseHealthCondition;}
     public void setIncreaseHealthCondition(int increaseHealthCondition) {this.increaseHealthCondition = increaseHealthCondition;}
 
-    public int getIncreaseHungerSensation() {return increaseHungerSensation;}
-    public void setIncreaseHungerSensation(int increaseHungerSensation) {this.increaseHungerSensation = increaseHungerSensation;}
+    public int getHungerLevel() {return HungerLevel;}
+    public void setHungerLevel(int hungerLevel) {this.HungerLevel = hungerLevel;}
 
     public boolean isMedicalTreatment() {return medicalTreatment;}
     public void setMedicalTreatment(boolean medicalTreatment) {this.medicalTreatment = medicalTreatment;}

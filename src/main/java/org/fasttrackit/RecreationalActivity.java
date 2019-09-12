@@ -10,49 +10,35 @@ public class RecreationalActivity {
     private boolean petAcces;
     private int moodIncrease;
 
-    public RecreationalActivity(String name) {
+    public RecreationalActivity(String name, int moodIncrease) {
         this.name = name;
+        this.moodIncrease=moodIncrease;
     }
+
 
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
 
-    public String getPlace() {
-        return place;
-    }
-
+    public String getPlace() {return place;}
     public void setPlace(String place) {
         this.place = place;
     }
 
-    public double getPrice() {
-
-        return price;
-    }
-
+    public double getPrice() {return price;}
     public void setPrice(double price) {
         this.price = price;
     }
 
-    public boolean isPetAcces() {
-
-        return petAcces;
-    }
-
+    public boolean isPetAcces() {return petAcces;}
     public void setPetAcces(boolean petAcces) {
         this.petAcces = petAcces;
     }
 
-    public int getMoodIncrease() {
-
-        return moodIncrease;
-    }
-
+    public int getMoodIncrease() {return moodIncrease;}
     public void setMoodIncrease(int moodIncrease) {
         this.moodIncrease = moodIncrease;
     }

@@ -9,6 +9,7 @@ public class Rescuer extends Entity{
     private int rescuerHealtCondition;
     private int animalMedicatTreatment;
 
+
     public Rescuer(String name,int age){
         this.setName(name);
         this.setAge(age);;
@@ -16,12 +17,16 @@ public class Rescuer extends Entity{
 
 
 
+
     public void feeding(Animal animal, AnimalFood food){
         System.out.println(getName()+" just gave some "+ food.getName() + " food to "+animal.getName()+".");
+        animal.setHungerLevel(animal.getHungerLevel()-1);
+        //animal.setHungerLevel(animal.getHungerLevel()+food.getHungerLevel());
     }
-    public void recreationTime(RecreationalActivity recreationalActivity, Animal animal){
 
+    public void recreationTime(Animal animal, RecreationalActivity recreationalActivity){
         System.out.println(getName()+" just have some "+ recreationalActivity.getName() + " activity with "+animal.getName()+".");
+        animal.setMood(animal.getMood()+recreationalActivity.getMoodIncrease());
     }
 
 
@@ -30,35 +35,18 @@ public class Rescuer extends Entity{
     public double getMoney() {
         return money;
     }
-
     public void setMoney(double money) {
         this.money = money;
     }
 
-    public int getMood() {
-
-        return mood;
-    }
-
+    public int getMood() {return mood;}
     public void setMood(int mood) {
         this.mood = mood;
     }
 
-    public int getRescuerHealtCondition() {
+    public int getRescuerHealtCondition() {return rescuerHealtCondition;}
+    public void setRescuerHealtCondition(int rescuerHealtCondition) {this.rescuerHealtCondition = rescuerHealtCondition;}
 
-        return rescuerHealtCondition;
-    }
-
-    public void setRescuerHealtCondition(int rescuerHealtCondition) {
-        this.rescuerHealtCondition = rescuerHealtCondition;
-    }
-
-    public int getAnimalMedicatTreatment() {
-
-        return animalMedicatTreatment;
-    }
-
-    public void setAnimalMedicatTreatment(int animalMedicatTreatment) {
-        this.animalMedicatTreatment = animalMedicatTreatment;
-    }
+    public int getAnimalMedicatTreatment() {return animalMedicatTreatment;}
+    public void setAnimalMedicatTreatment(int animalMedicatTreatment) {this.animalMedicatTreatment = animalMedicatTreatment;}
 }

@@ -31,6 +31,7 @@ public class App
 //            dogFood.expirationDate = 12, 12, 2020;
 
         RecreationalActivity forestWalks = new RecreationalActivity("ForestWalks", 2);
+        RecreationalActivity parkWalks = new RecreationalActivity("ParkWalks", 2);
 
         Game game = new Game();
         game.setRescuer("Alex");
@@ -64,11 +65,17 @@ public class App
         System.out.println(daisy.getName()+"'s level of happines after "+forestWalks.getName()+" is: "+daisy.getMood());
          **/
 
-        System.out.println(daisy.toString());
+     /**   System.out.println(daisy.toString());
         alex.feeding(daisy,dogFood);
         System.out.println(daisy.toString());
         alex.recreationTime(daisy,forestWalks);
-        System.out.println(daisy.toString());
+        System.out.println(daisy.toString());**/
+
+        AnimalFood catFood = new AnimalFood("Purrina", 90, -2);
+
+        game.initFood(dogFood,catFood);
+        game.initRecreationalActivity(forestWalks,parkWalks);
+        game.start();
 
 
     }

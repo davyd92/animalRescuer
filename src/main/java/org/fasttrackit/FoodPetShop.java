@@ -1,5 +1,6 @@
 package org.fasttrackit;
 
+
 public class FoodPetShop {
     private String name;
     private boolean dogFood;
@@ -10,7 +11,6 @@ public class FoodPetShop {
 
 
     public String getName() {return name;}
-
     public void setName(String name) {this.name = name;}
 
     public boolean isDogFood() {return dogFood;}

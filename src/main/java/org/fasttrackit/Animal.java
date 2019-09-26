@@ -1,6 +1,7 @@
 package org.fasttrackit;
 
 
+
 public class Animal extends Entity {
     private int healthCondition;
     private int hungerLevel;

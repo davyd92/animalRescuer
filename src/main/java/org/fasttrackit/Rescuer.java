@@ -9,13 +9,10 @@ public class Rescuer extends Entity{
     private int rescuerHealtCondition;
     private int animalMedicatTreatment;
 
-
     public Rescuer(String name,int age){
         this.setName(name);
         this.setAge(age);;
     }
-
-
 
 
     public void feeding(Animal animal, AnimalFood food){
@@ -34,8 +31,6 @@ public class Rescuer extends Entity{
         }
             else animal.setMood(animal.getMood()+recreationalActivity.getMoodIncrease());
     }
-
-
 
 
     public double getMoney() {

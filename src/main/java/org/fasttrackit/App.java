@@ -1,13 +1,9 @@
 package org.fasttrackit;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
+
+
+public class App {
     public static void main( String[] args ){
-//        System.out.println( "Hello World!" );
 
         Rescuer alex = new Rescuer("Alex", 19);
             alex.setMoney(1400);
@@ -76,7 +72,6 @@ public class App
         game.initFood(dogFood,catFood);
         game.initRecreationalActivity(forestWalks,parkWalks);
         game.start();
-
 
     }
 }

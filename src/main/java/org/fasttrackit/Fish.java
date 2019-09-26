@@ -11,5 +11,4 @@ public class Fish extends Animal {
     public String pozitiveMood(){
         return "Fish swim playful.";
     }
-
 }

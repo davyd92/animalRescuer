@@ -26,11 +26,9 @@ public class Game {
                 System.out.println(availFood.getName());}}}
 
 
-
     /**private**/ void initRecreationalActivity(RecreationalActivity recreationalActivity1, RecreationalActivity recreationalActivity2) {
             availableActivities[0]=recreationalActivity1;
-            availableActivities[1]=recreationalActivity2;
-    }
+            availableActivities[1]=recreationalActivity2;}
 
     public void availableActivities(){
         for(int i=0; i<availableActivities.length;i++){
@@ -55,9 +53,6 @@ public class Game {
 //        }
 //    }
 
-
-
-
     public String getRescuer() {
         return rescuer;
     }
@@ -74,7 +69,6 @@ public class Game {
     public void setDoctor(String doctor) {
         this.doctor = doctor;
     }
-
 
 
     public void start(){

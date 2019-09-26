@@ -15,7 +15,6 @@ public class RecreationalActivity {
         this.moodIncrease=moodIncrease;
     }
 
-
     public String getName() {
         return name;
     }

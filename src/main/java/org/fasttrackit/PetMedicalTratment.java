@@ -15,28 +15,15 @@ public class PetMedicalTratment {
         this.price = price;
     }
 
-    public int getIncreasePetHealthCondition() {
-        return increasePetHealthCondition;
-    }
+    public int getIncreasePetHealthCondition() {return increasePetHealthCondition;}
+    public void setIncreasePetHealthCondition(int increasePetHealthCondition) {this.increasePetHealthCondition = increasePetHealthCondition;}
 
-    public void setIncreasePetHealthCondition(int increasePetHealthCondition) {
-        this.increasePetHealthCondition = increasePetHealthCondition;
-    }
-
-    public double getPrice() {
-
-        return price;
-    }
-
+    public double getPrice() {return price;}
     public void setPrice(double price) {
         this.price = price;
     }
 
-    public String getName() {
-
-        return name;
-    }
-
+    public String getName() {return name;}
     public void setName(String name) {
         this.name = name;
     }

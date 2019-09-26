@@ -11,46 +11,21 @@ public class Doctor extends Entity{
     private String suggestRescuerMedicalTreatment;
     private int increaseRescuerHealthCondition;
 
-    public int getIncreaseRescuerHealthCondition() {
-        return increaseRescuerHealthCondition;
-    }
+    public int getIncreaseRescuerHealthCondition() {return increaseRescuerHealthCondition;}
+    public void setIncreaseRescuerHealthCondition(int increaseRescuerHealthCondition) {this.increaseRescuerHealthCondition = increaseRescuerHealthCondition;}
 
-    public void setIncreaseRescuerHealthCondition(int increaseRescuerHealthCondition) {
-        this.increaseRescuerHealthCondition = increaseRescuerHealthCondition;
-    }
+    public String getSuggestRescuerMedicalTreatment() {return suggestRescuerMedicalTreatment;}
+    public void setSuggestRescuerMedicalTreatment(String suggestRescuerMedicalTreatment) {this.suggestRescuerMedicalTreatment = suggestRescuerMedicalTreatment;}
 
-    public String getSuggestRescuerMedicalTreatment() {
-
-        return suggestRescuerMedicalTreatment;
-    }
-
-    public void setSuggestRescuerMedicalTreatment(String suggestRescuerMedicalTreatment) {
-        this.suggestRescuerMedicalTreatment = suggestRescuerMedicalTreatment;
-    }
-
-    public double getConsultationPrice() {
-
-        return consultationPrice;
-    }
-
+    public double getConsultationPrice() {return consultationPrice;}
     public void setConsultationPrice(double consultationPrice) {
         this.consultationPrice = consultationPrice;
     }
 
-    public int getRescuerMedicalTreatment() {
+    public int getRescuerMedicalTreatment() {return rescuerMedicalTreatment;}
+    public void setRescuerMedicalTreatment(int rescuerMedicalTreatment) {this.rescuerMedicalTreatment = rescuerMedicalTreatment;}
 
-        return rescuerMedicalTreatment;
-    }
-
-    public void setRescuerMedicalTreatment(int rescuerMedicalTreatment) {
-        this.rescuerMedicalTreatment = rescuerMedicalTreatment;
-    }
-
-    public String getSpecialization() {
-
-        return specialization;
-    }
-
+    public String getSpecialization() {return specialization;}
     public void setSpecialization(String specialization) {
         this.specialization = specialization;
     }

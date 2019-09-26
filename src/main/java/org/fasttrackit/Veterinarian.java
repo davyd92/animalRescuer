@@ -1,6 +1,7 @@
 package org.fasttrackit;
 
 
+
 public class Veterinarian extends Entity{
     private String specialization;
 

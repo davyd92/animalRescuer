@@ -1,7 +1,6 @@
 package org.fasttrackit;
 
 
-
 public class Rescuer extends Entity{
     private double money;
 

@@ -7,6 +7,7 @@ public class Parrot extends Animal {
     public Parrot(String name) {
         super(name);
     }
+    public Parrot(){}
 
     public String pozitiveMood(){
         return "The parrot is dancing.";

@@ -6,6 +6,7 @@ public class Fish extends Animal {
     public Fish(String name) {
         super(name);
     }
+    public Fish() {}
 
     public String pozitiveMood(){
         return "Fish swim playful.";

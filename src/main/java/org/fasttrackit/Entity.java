@@ -1,7 +1,7 @@
 package org.fasttrackit;
 
 
-public class Entity {
+public abstract class Entity {
     private String name;
     private int age;
 

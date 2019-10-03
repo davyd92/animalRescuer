@@ -1,7 +1,7 @@
 package org.fasttrackit;
 
 
-public class Animal extends Entity {
+public abstract class Animal extends Entity {
     private int healthCondition;
     private int hungerLevel;
     private int mood;
@@ -16,6 +16,7 @@ public class Animal extends Entity {
     public Animal(String name) {
         this.setName(name);
     }
+    public Animal() {}
 
     public String pozitiveMood(){
         return "The animal is happy.";

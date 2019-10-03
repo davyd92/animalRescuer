@@ -7,6 +7,7 @@ public class Turtle extends Animal {
     public Turtle(String name) {
         super(name);
     }
+    public Turtle(){}
 
     public String pozitiveMood(){
         return "The turtle is swimming happy.";

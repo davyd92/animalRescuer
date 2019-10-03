@@ -6,11 +6,10 @@ public class AnimalFood {
     private String name;
     private double price;
     private double quantity;
-    private Date expirationDate;
+    private String expirationDate;
     private boolean availabilityInStock;
 
     private boolean medicalTreatment;
-    private int increaseHealthCondition;
     private int HungerLevel;
     private int increaseMood;
 
@@ -20,8 +19,14 @@ public class AnimalFood {
         this.HungerLevel = HungerLevel;
     }
 
-
-
+    public AnimalFood(String name, double price, double quantity, boolean medicalTreatment, int hungerLevel, int increaseMood) {
+        this.name = name;
+        this.price = price;
+        this.quantity = quantity;
+        this.medicalTreatment = medicalTreatment;
+        HungerLevel = hungerLevel;
+        this.increaseMood = increaseMood;
+    }
 
     public String getName() {return name;}
     public void setName(String name) {this.name = name;}
@@ -35,14 +40,11 @@ public class AnimalFood {
     public double getQuantity() {return quantity;}
     public void setQuantity(double quantity) {this.quantity = quantity;}
 
-    public Date getExpirationDate() {return expirationDate;}
-    public void setExpirationDate(Date expirationDate) {this.expirationDate = expirationDate;}
+    public String getExpirationDate() {return expirationDate;}
+    public void setExpirationDate(String expirationDate) {this.expirationDate = expirationDate;}
 
     public boolean isAvailabilityInStock() {return availabilityInStock;}
     public void setAvailabilityInStock(boolean availabilityInStock) {this.availabilityInStock = availabilityInStock;}
-
-    public int getIncreaseHealthCondition() {return increaseHealthCondition;}
-    public void setIncreaseHealthCondition(int increaseHealthCondition) {this.increaseHealthCondition = increaseHealthCondition;}
 
     public int getHungerLevel() {return HungerLevel;}
     public void setHungerLevel(int hungerLevel) {this.HungerLevel = hungerLevel;}
